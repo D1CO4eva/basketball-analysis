@@ -1,0 +1,675 @@
+{
+  "input_rows": 31517,
+  "cleaned_rows": 31517,
+  "duplicates_removed": 0,
+  "subtype_counts": {
+    "combine_measurement|staging.nbadraft.net": 338,
+    "season_stats|basketball-reference.com": 31179
+  },
+  "invalid_numeric_values": {
+    "season_end_year": 0,
+    "draft_year": 0,
+    "age": 0,
+    "height_in": 0,
+    "weight_lb": 0,
+    "wingspan_in": 0,
+    "standing_reach_in": 0,
+    "body_fat_pct": 0,
+    "hand_length_in": 0,
+    "hand_width_in": 0,
+    "games": 0,
+    "games_started": 0,
+    "minutes_per_game": 0,
+    "points_per_game": 0,
+    "assists_per_game": 0,
+    "rebounds_per_game": 0,
+    "steals_per_game": 0,
+    "blocks_per_game": 0,
+    "turnovers_per_game": 0,
+    "fg_pct": 0,
+    "fg3_pct": 0,
+    "ft_pct": 0,
+    "per": 0,
+    "ts_pct": 0,
+    "usg_pct": 0,
+    "ows": 0,
+    "dws": 0,
+    "ws": 0,
+    "ws_per_48": 0,
+    "bpm": 0,
+    "vorp": 0,
+    "ast_pct": 0,
+    "trb_pct": 0,
+    "stl_pct": 0,
+    "blk_pct": 0,
+    "tov_pct": 0,
+    "raw_height_wo_shoes": 338,
+    "raw_height_w_shoes": 338
+  },
+  "imputed_values": {
+    "season_end_year": 0,
+    "draft_year": 31179,
+    "age": 415,
+    "height_in": 85,
+    "weight_lb": 92,
+    "wingspan_in": 31186,
+    "standing_reach_in": 31187,
+    "body_fat_pct": 31197,
+    "hand_length_in": 31191,
+    "hand_width_in": 31191,
+    "games": 415,
+    "games_started": 6140,
+    "minutes_per_game": 916,
+    "points_per_game": 415,
+    "assists_per_game": 415,
+    "rebounds_per_game": 727,
+    "steals_per_game": 4275,
+    "blocks_per_game": 4272,
+    "turnovers_per_game": 5453,
+    "fg_pct": 486,
+    "fg3_pct": 10078,
+    "ft_pct": 1644,
+    "per": 932,
+    "ts_pct": 470,
+    "usg_pct": 5423,
+    "ows": 426,
+    "dws": 426,
+    "ws": 426,
+    "ws_per_48": 932,
+    "bpm": 4320,
+    "vorp": 4315,
+    "ast_pct": 2495,
+    "trb_pct": 3485,
+    "stl_pct": 4267,
+    "blk_pct": 4267,
+    "tov_pct": 5506,
+    "raw_height_wo_shoes": 31517,
+    "raw_height_w_shoes": 31517,
+    "record_type": 0,
+    "source": 0,
+    "team_abbr": 415,
+    "position": 88,
+    "college": 2986,
+    "entry_id": 0,
+    "source_url": 0,
+    "season_label": 0,
+    "player_id": 171,
+    "player_name": 0,
+    "birth_date": 415,
+    "height_ft_in": 77,
+    "wingspan_ft_in": 31179,
+    "standing_reach_ft_in": 31179
+  },
+  "numeric_imputations_by_subtype": {
+    "combine_measurement|staging.nbadraft.net": {
+      "season_end_year": 2017,
+      "draft_year": 2017,
+      "age": 0,
+      "height_in": 77.5,
+      "weight_lb": 211,
+      "wingspan_in": 82.75,
+      "standing_reach_in": 103.0,
+      "body_fat_pct": 0.06325,
+      "hand_length_in": 8.75,
+      "hand_width_in": 9.25,
+      "games": 0,
+      "games_started": 0,
+      "minutes_per_game": 0,
+      "points_per_game": 0,
+      "assists_per_game": 0,
+      "rebounds_per_game": 0,
+      "steals_per_game": 0,
+      "blocks_per_game": 0,
+      "turnovers_per_game": 0,
+      "fg_pct": 0,
+      "fg3_pct": 0,
+      "ft_pct": 0,
+      "per": 0,
+      "ts_pct": 0,
+      "usg_pct": 0,
+      "ows": 0,
+      "dws": 0,
+      "ws": 0,
+      "ws_per_48": 0,
+      "bpm": 0,
+      "vorp": 0,
+      "ast_pct": 0,
+      "trb_pct": 0,
+      "stl_pct": 0,
+      "blk_pct": 0,
+      "tov_pct": 0,
+      "raw_height_wo_shoes": 0,
+      "raw_height_w_shoes": 0
+    },
+    "season_stats|basketball-reference.com": {
+      "season_end_year": 2002,
+      "draft_year": 0,
+      "age": 26,
+      "height_in": 79.0,
+      "weight_lb": 215,
+      "wingspan_in": 0,
+      "standing_reach_in": 0,
+      "body_fat_pct": 0,
+      "hand_length_in": 0,
+      "hand_width_in": 0,
+      "games": 54,
+      "games_started": 7,
+      "minutes_per_game": 19.3,
+      "points_per_game": 6.8,
+      "assists_per_game": 1.3,
+      "rebounds_per_game": 3.0,
+      "steals_per_game": 0.6,
+      "blocks_per_game": 0.3,
+      "turnovers_per_game": 1.0,
+      "fg_pct": 0.44,
+      "fg3_pct": 0.313,
+      "ft_pct": 0.75,
+      "per": 12.7,
+      "ts_pct": 0.514,
+      "usg_pct": 0.184,
+      "ows": 0.4,
+      "dws": 0.8,
+      "ws": 1.3,
+      "ws_per_48": 0.076,
+      "bpm": -1.5,
+      "vorp": 0.1,
+      "ast_pct": 0.106,
+      "trb_pct": 0.091,
+      "stl_pct": 0.019,
+      "blk_pct": 0.039,
+      "tov_pct": 0.136,
+      "raw_height_wo_shoes": 0,
+      "raw_height_w_shoes": 0
+    }
+  },
+  "numeric_imputation_counts_by_subtype": {
+    "combine_measurement|staging.nbadraft.net": {
+      "season_end_year": 0,
+      "draft_year": 0,
+      "age": 338,
+      "height_in": 8,
+      "weight_lb": 12,
+      "wingspan_in": 7,
+      "standing_reach_in": 8,
+      "body_fat_pct": 18,
+      "hand_length_in": 12,
+      "hand_width_in": 12,
+      "games": 338,
+      "games_started": 338,
+      "minutes_per_game": 338,
+      "points_per_game": 338,
+      "assists_per_game": 338,
+      "rebounds_per_game": 338,
+      "steals_per_game": 338,
+      "blocks_per_game": 338,
+      "turnovers_per_game": 338,
+      "fg_pct": 338,
+      "fg3_pct": 338,
+      "ft_pct": 338,
+      "per": 338,
+      "ts_pct": 338,
+      "usg_pct": 338,
+      "ows": 338,
+      "dws": 338,
+      "ws": 338,
+      "ws_per_48": 338,
+      "bpm": 338,
+      "vorp": 338,
+      "ast_pct": 338,
+      "trb_pct": 338,
+      "stl_pct": 338,
+      "blk_pct": 338,
+      "tov_pct": 338,
+      "raw_height_wo_shoes": 338,
+      "raw_height_w_shoes": 338
+    },
+    "season_stats|basketball-reference.com": {
+      "season_end_year": 0,
+      "draft_year": 31179,
+      "age": 77,
+      "height_in": 77,
+      "weight_lb": 80,
+      "wingspan_in": 31179,
+      "standing_reach_in": 31179,
+      "body_fat_pct": 31179,
+      "hand_length_in": 31179,
+      "hand_width_in": 31179,
+      "games": 77,
+      "games_started": 5802,
+      "minutes_per_game": 578,
+      "points_per_game": 77,
+      "assists_per_game": 77,
+      "rebounds_per_game": 389,
+      "steals_per_game": 3937,
+      "blocks_per_game": 3934,
+      "turnovers_per_game": 5115,
+      "fg_pct": 148,
+      "fg3_pct": 9740,
+      "ft_pct": 1306,
+      "per": 594,
+      "ts_pct": 132,
+      "usg_pct": 5085,
+      "ows": 88,
+      "dws": 88,
+      "ws": 88,
+      "ws_per_48": 594,
+      "bpm": 3982,
+      "vorp": 3977,
+      "ast_pct": 2157,
+      "trb_pct": 3147,
+      "stl_pct": 3929,
+      "blk_pct": 3929,
+      "tov_pct": 5168,
+      "raw_height_wo_shoes": 31179,
+      "raw_height_w_shoes": 31179
+    }
+  },
+  "winsorization_by_subtype": {
+    "combine_measurement|staging.nbadraft.net": {
+      "season_end_year": {
+        "low": 2015.0,
+        "high": 2019.0,
+        "clipped_rows": 0
+      },
+      "draft_year": {
+        "low": 2015.0,
+        "high": 2019.0,
+        "clipped_rows": 0
+      },
+      "age": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "height_in": {
+        "low": 69.8425,
+        "high": 85.065,
+        "clipped_rows": 8
+      },
+      "weight_lb": {
+        "low": 167.37,
+        "high": 270.66999999999996,
+        "clipped_rows": 8
+      },
+      "wingspan_in": {
+        "low": 74.0,
+        "high": 91.0,
+        "clipped_rows": 4
+      },
+      "standing_reach_in": {
+        "low": 92.685,
+        "high": 113.315,
+        "clipped_rows": 8
+      },
+      "body_fat_pct": {
+        "low": 0.037684999999999996,
+        "high": 0.13944499999999999,
+        "clipped_rows": 8
+      },
+      "hand_length_in": {
+        "low": 7.5,
+        "high": 9.907499999999999,
+        "clipped_rows": 4
+      },
+      "hand_width_in": {
+        "low": 7.5925,
+        "high": 10.75,
+        "clipped_rows": 6
+      },
+      "games": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "games_started": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "minutes_per_game": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "points_per_game": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "assists_per_game": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "rebounds_per_game": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "steals_per_game": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "blocks_per_game": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "turnovers_per_game": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "fg_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "fg3_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "ft_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "per": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "ts_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "usg_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "ows": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "dws": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "ws": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "ws_per_48": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "bpm": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "vorp": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "ast_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "trb_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "stl_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "blk_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "tov_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "raw_height_wo_shoes": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "raw_height_w_shoes": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      }
+    },
+    "season_stats|basketball-reference.com": {
+      "season_end_year": {
+        "low": 1950.0,
+        "high": 2026.0,
+        "clipped_rows": 0
+      },
+      "draft_year": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "age": {
+        "low": 20.0,
+        "high": 37.0,
+        "clipped_rows": 445
+      },
+      "height_in": {
+        "low": 70.0,
+        "high": 86.0,
+        "clipped_rows": 325
+      },
+      "weight_lb": {
+        "low": 165.0,
+        "high": 280.0,
+        "clipped_rows": 550
+      },
+      "wingspan_in": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "standing_reach_in": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "body_fat_pct": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "hand_length_in": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "hand_width_in": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "games": {
+        "low": 1.0,
+        "high": 82.0,
+        "clipped_rows": 43
+      },
+      "games_started": {
+        "low": 0.0,
+        "high": 82.0,
+        "clipped_rows": 6
+      },
+      "minutes_per_game": {
+        "low": 2.5,
+        "high": 40.2,
+        "clipped_rows": 602
+      },
+      "points_per_game": {
+        "low": 0.0,
+        "high": 26.6,
+        "clipped_rows": 306
+      },
+      "assists_per_game": {
+        "low": 0.0,
+        "high": 8.4,
+        "clipped_rows": 305
+      },
+      "rebounds_per_game": {
+        "low": 0.0,
+        "high": 12.8,
+        "clipped_rows": 297
+      },
+      "steals_per_game": {
+        "low": 0.0,
+        "high": 2.1,
+        "clipped_rows": 268
+      },
+      "blocks_per_game": {
+        "low": 0.0,
+        "high": 2.3,
+        "clipped_rows": 276
+      },
+      "turnovers_per_game": {
+        "low": 0.0,
+        "high": 3.6,
+        "clipped_rows": 241
+      },
+      "fg_pct": {
+        "low": 0.0,
+        "high": 0.674,
+        "clipped_rows": 311
+      },
+      "fg3_pct": {
+        "low": 0.0,
+        "high": 0.625,
+        "clipped_rows": 310
+      },
+      "ft_pct": {
+        "low": 0.25,
+        "high": 1.0,
+        "clipped_rows": 286
+      },
+      "per": {
+        "low": -6.4,
+        "high": 26.6,
+        "clipped_rows": 618
+      },
+      "ts_pct": {
+        "low": 0.015,
+        "high": 0.713,
+        "clipped_rows": 622
+      },
+      "usg_pct": {
+        "low": 0.075,
+        "high": 0.3302200000000012,
+        "clipped_rows": 618
+      },
+      "ows": {
+        "low": -1.3,
+        "high": 8.9,
+        "clipped_rows": 576
+      },
+      "dws": {
+        "low": 0.0,
+        "high": 5.2,
+        "clipped_rows": 439
+      },
+      "ws": {
+        "low": -0.5,
+        "high": 12.7,
+        "clipped_rows": 604
+      },
+      "ws_per_48": {
+        "low": -0.281,
+        "high": 0.25222000000000117,
+        "clipped_rows": 622
+      },
+      "bpm": {
+        "low": -16.321999999999996,
+        "high": 7.4,
+        "clipped_rows": 619
+      },
+      "vorp": {
+        "low": -0.9,
+        "high": 5.3,
+        "clipped_rows": 561
+      },
+      "ast_pct": {
+        "low": 0.0,
+        "high": 0.4172200000000012,
+        "clipped_rows": 312
+      },
+      "trb_pct": {
+        "low": 0.0,
+        "high": 0.228,
+        "clipped_rows": 303
+      },
+      "stl_pct": {
+        "low": 0.0,
+        "high": 1.0,
+        "clipped_rows": 0
+      },
+      "blk_pct": {
+        "low": 0.0,
+        "high": 1.0,
+        "clipped_rows": 0
+      },
+      "tov_pct": {
+        "low": 0.0,
+        "high": 0.3554400000000023,
+        "clipped_rows": 312
+      },
+      "raw_height_wo_shoes": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      },
+      "raw_height_w_shoes": {
+        "low": 0.0,
+        "high": 0.0,
+        "clipped_rows": 0
+      }
+    }
+  },
+  "sparse_numeric_columns_excluded_from_model": [
+    "body_fat_pct",
+    "draft_year",
+    "hand_length_in",
+    "hand_width_in",
+    "raw_height_w_shoes",
+    "raw_height_wo_shoes",
+    "standing_reach_in",
+    "wingspan_in"
+  ],
+  "missing_indicator_columns": [
+    "missing_body_fat_pct",
+    "missing_draft_year",
+    "missing_hand_length_in",
+    "missing_hand_width_in",
+    "missing_raw_height_w_shoes",
+    "missing_raw_height_wo_shoes",
+    "missing_standing_reach_in",
+    "missing_wingspan_in"
+  ],
+  "sparse_missing_threshold": 0.95,
+  "indicator_missing_threshold": 0.5
+}
